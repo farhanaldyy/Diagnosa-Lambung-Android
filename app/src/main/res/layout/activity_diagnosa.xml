@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DiagnosaActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        android:background="@color/white">
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/lambung"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DIAGNOSA PENYAKIT"
+            android:textAlignment="center"
+            android:textColor="#FF5722"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="10dp"/>
+
+        <CheckBox
+            android:id="@+id/cx_nyeri_perih_lambung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="Nyeri atau Perih pada Lambung"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:id="@+id/cx_perut_kembung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="Perut Kembung"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:id="@+id/cx_nafsu_makan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="Nafsu Makan Berkurang"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:id="@+id/cx_mual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="Mual"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:id="@+id/cx_sembelit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="Sembelit"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/cx_diare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Diare "
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/cx_bb_menurun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Berat Badan Menurun"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/cx_bab_hitam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BAB Warna Hitam"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/cx_demam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Demam"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/cx_rasa_makanan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rasa Makanan Kembali"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/cx_bab_cair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BAB Cair"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/cx_kejang_perut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kejang Perut"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/cx_nyeri_ulu_hati"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nyeri Pada Uluh Hati"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/cx_kenyang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Perasaan Kenyang Belebihan"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/cx_nyeri_tukak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nyeri Tukang Pada Lambung"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:id="@+id/cx_muntah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="Muntah"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/cx_rs_terbakar_dada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rasa Terbakar Di Bagian Dada"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:id="@+id/btn_diagnosa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cek Diagnosa"
+            android:background="@color/teal_700"/>
+
+        <TextView
+            android:textSize="20sp"
+            android:id="@+id/tv_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Result"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginBottom="20dp"
+            android:padding="20dp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+</ScrollView>
