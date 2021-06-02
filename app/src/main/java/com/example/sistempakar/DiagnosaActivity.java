@@ -170,10 +170,7 @@ public class DiagnosaActivity extends AppCompatActivity {
                 && checkRasaTerbakar.isChecked()) {
             NamaPenyakit += "GERD";
         }
-        if (checkNyeriPerih.isChecked() && checkMual.isChecked()
-                && checkDiare.isChecked() && checkDemam.isChecked() &&
-                checkRasaMakanan.isChecked() && checkKejangPerut.isChecked()
-                && checkMuntah.isChecked()) {
+        if ( checkDemam.isChecked() && checkRasaMakanan.isChecked() && checkMuntah.isChecked()) {
             NamaPenyakit += "Gastroenteritis";
         }
         if (checkPerutKembung.isChecked() && checkNafsuMakan.isChecked()

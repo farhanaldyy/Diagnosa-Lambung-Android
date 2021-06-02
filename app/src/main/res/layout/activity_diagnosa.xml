@@ -10,7 +10,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="16dp"
+        android:layout_margin="20dp"
         android:orientation="vertical"
         tools:context=".MainActivity"
         android:background="@color/white">
@@ -25,7 +25,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="DIAGNOSA PENYAKIT"
+            android:text="Pilih Gejala Untuk Diagnosa"
             android:textAlignment="center"
             android:textColor="#FF5722"
             android:textSize="20sp"
@@ -209,17 +209,26 @@
             android:text="Cek Diagnosa"
             android:background="@color/teal_700"/>
 
-        <TextView
-            android:textSize="20sp"
-            android:id="@+id/tv_result"
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Result"
-            android:textStyle="bold"
-            android:textAlignment="center"
-            android:layout_marginBottom="20dp"
-            android:padding="20dp"
-            android:textColor="@color/black"/>
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:backgroundTint="@color/white">
+
+            <TextView
+                android:textSize="20sp"
+                android:id="@+id/tv_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Result"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginBottom="20dp"
+                android:padding="10dp"
+                android:textColor="#FF9800"/>
+
+        </androidx.cardview.widget.CardView>
 
     </LinearLayout>
 
